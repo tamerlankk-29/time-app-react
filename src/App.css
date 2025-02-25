@@ -1,0 +1,44 @@
+body {
+  background-color: #f5f1e9; /* Светлый бежевый фон */
+  color: #4a3f35; /* Тёмно-коричневый текст */
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fffdf8; /* Мягкий белый фон для блока */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  color: #8b6f47; /* Бежево-коричневый заголовок */
+}
+
+.time {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4a3f35; /* Тёмно-коричневый цвет времени */
+  margin-top: 10px;
+}
+
+button {
+  background-color: #d1bfa3; /* Бежевый цвет кнопки */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #b9a189; /* Чуть темнее при наведении */
+}
