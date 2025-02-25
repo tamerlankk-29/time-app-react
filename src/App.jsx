@@ -4,11 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [time, setTime] = useState(new Date()); // Реальное время
-  const [seconds, setSeconds] = useState(0); // Секундомер
+  const [time, setTime] = useState(new Date());
+  const [seconds, setSeconds] = useState(0);
   const [isRunning, setIsRunning] = useState(false);
 
-  // Обновляем реальное время каждую секунду
+
   useEffect(() => {
     const interval = setInterval(() => {
       setTime(new Date());
@@ -16,7 +16,7 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  // Таймер (секундомер)
+
   useEffect(() => {
     let timer;
     if (isRunning) {
